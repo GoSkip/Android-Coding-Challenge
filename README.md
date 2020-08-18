@@ -53,8 +53,7 @@ Don’t worry if your app has personality or a sense of humor. We want you to ha
 Sincerely,
 Your Friends at Skip
 
-### 
-Sample Best Buy Response
+### Sample Best Buy Response
 
 For your convenience, below is a sample JSON response from the Best Buy Products Search API.
 
