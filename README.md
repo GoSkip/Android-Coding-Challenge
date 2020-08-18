@@ -50,7 +50,9 @@ Among other criteria, your submission will be evaluated on:
 
 Don’t worry if your app has personality or a sense of humor. We want you to have fun!
 
+
 Sincerely,
+
 Your Friends at Skip
 
 ### Sample Best Buy Response
