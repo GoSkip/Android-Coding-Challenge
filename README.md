@@ -2,7 +2,7 @@
 
 Here at Skip we aim to create world-class app experiences for our customers. Skip takes great care in how we select members of our engineering team. This coding challenge will help us get an idea of how you would use software to solve problems for our end users.
 
-We know that your time is valuable, so we’ve designed the challenge with that in mind. There's no specific amount of time that this challenge should take you to complete, as the level of effort will depend on how familiar you are with Android development. Please feel free to spend as much time as you’d like crafting your preferred solution and we hope you have fun building it!
+We know that your time is valuable, so we’ve designed the challenge with that in mind. There's no specific amount of time that this challenge should take you to complete, as the level of effort will depend on how familiar you are with Android development, but we don't want it to take you more than an evening. With that in mind, please feel free to spend as much time as you’d like crafting your preferred solution and we hope you have fun building it!
 
 ## Challenge: Product Search!
 
