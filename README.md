@@ -11,7 +11,7 @@ Your challenge is to create a three-screen application that allows users to:
 2. View their search results in a list
 3. View the individual details of each product returned in the search result
 
-The first screen should display an input field that allows users to search for products (for example, “laptop”, “Cell Phone”, “Stainless Steel Ovens”, etc) and, upon executing a search, should display the results in a list. Clicking an item in the list should launch a details screen. The details screen should show the product's image and provide more details about the product.
+The first screen should display an input field that allows users to search for products (for example, “laptop”, “Cell Phone”, “Stainless Steel Ovens”, etc).  Upon executing a search, the next screen should display the results in a list. Clicking an item in the list should launch a details screen. The details screen should show the product's image and provide more details about the product.
 
 ### Requirements
 
