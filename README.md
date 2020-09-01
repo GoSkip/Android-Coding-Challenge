@@ -37,16 +37,19 @@ For quick and easy icons if needed, consider using the [Material icons](https://
 
 ### Considerations
 
-Among other criteria, your submission will be evaluated on:
+Your submission will be evaluated on:
 
+(Based on order of importance)
 1. Implementation of the stated requirements
-2. Application Architecture
-3. The general quality of the code and it’s resistance to crashing
-4. Your use of Android coding conventions
-5. Knowledge and usage of Android libraries and SDKs
-6. Clarity of communications in comments and other documentation
-7. UI and UX -- while we don’t want you to spend any time creating custom icons or other assets, the app should look clean and generally obey the Human Interface Guidelines
-8. Coding challenge reviewers should be able to load your project into Android Studio and build an instance of your app into an emulator. If the reviewer needs to do any project configuration (i.e. add his/her own Best Buy API key) that is enough reason to reject your application.
+2. Its resistance to crashing
+3. The general quality of the code
+4. Application Architecture
+5. Your use of Android coding conventions
+6. Knowledge and usage of Android libraries and SDKs
+7. Clarity of communications in comments and other documentation
+8. UI and UX -- while we don't want you to spend any time creating custom icons or other assets, the app should look clean and generally obey the Human Interface Guidelines
+
+Coding challenge reviewers should be able to load your project into Android Studio and build an instance of your app into an emulator. If the reviewer needs to do any project configuration (i.e. add his/her own Best Buy API key) that is enough reason to reject your application.
 
 Don’t worry if your app has personality or a sense of humor. We want you to have fun!
 
