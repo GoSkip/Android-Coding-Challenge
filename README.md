@@ -9,7 +9,7 @@ We know that your time is valuable, so we’ve designed the challenge with that 
 Your challenge is to create a three-screen application that allows users to:
 1. Search for products at Best Buy using the [Best Buy Products API](https://bestbuyapis.github.io/api-documentation/#products-api)
 2. View their search results in a list
-3. View the individual details of each product and validate that the check digit is correct (See the Notes section below for check digit details)
+3. View the individual details of each product and validate that the check digit is correct (See the [Notes section](#what-is-a-check-digit) below for check digit details)
 
 The first screen should display an input field that allows users to search for products (for example, “laptop”, “Cell Phone”, “Stainless Steel Ovens”, etc).  Upon executing a search, the next screen should display the results in a list. Clicking an item in the list should launch a details screen. The details screen should show the product's image and provide more details about the product.
 
@@ -25,7 +25,7 @@ The first screen should display an input field that allows users to search for p
     * LongDescription of the product (e.g., Write and design with confidence with this Google Pixelbook pen. The responsive instrument can be used with Google Pixelbook or Google Assistant to make taking notes or creating art more efficient. The realistic feel of this Google Pixelbook pen helps you write and draw naturally so you can focus on your designs.)
     * Image of the product
     * Price of the product (e.g., $99.99)
-    * The check digit that you have calculated (e.g., 2) (See the Notes section below for how this is calculated).
+    * The check digit that you have calculated (e.g., 2) (See the [Notes section](#how-do-i-calculate-a-check-digit) below for how this is calculated).
 4. The user should be able to navigate between screens according to Android platform conventions.
 5. Please zip up your project and email it to <jobs@getskip.com> with your first and last name.
 
@@ -36,9 +36,11 @@ Feel free to use any libraries you feel are appropriate to your needs.
 To be able to access the Best Buy API you will need an API key. This API key should have been sent to you already. If you have not received the API key, please email <jobs@getskip.com> with your name and the request for the API key.
 
 
-#### What is a Check Digit? How do I calculate it?
+#### What is a check digit?
 Most products sold in retail have on them what's called a UPC-A barcode. UPC-A barcodes are a set of 12 digits. The first 11 digits are a product identifier, while the last digit is what's called a check digit. The check digit exists to ensure that the barcode was generated correctly. The products that are returned to you from Best Buy contain a UPC that is type UPC-A and already have a check digit. We need to ensure that the check digit returned in the UPC from Best Buy is correct.
 
+
+#### How do I calculate a check digit?
 Suppose that you want to find the check digit of UPC-A number `84277610830`.
 1. From the right to the left assign an odd/even position to each digit, starting with odd.
 2. Sum all digits in odd positions and multiply the result by 3: `(0+8+1+7+2+8)*3=78`
