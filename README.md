@@ -56,7 +56,7 @@ http://www.azalea.com/white-papers/upc-barcode-check-digit/
 A query to the Best Buy Product API could look something like:
 
 ```
-curl "https://api.bestbuy.com/v1/products(search=pixel&search=pen)?format=json&show=name,upc,salePrice,image,longDescription,url&apiKey=INSERT_API_KEY"
+curl "https://api.bestbuy.com/v1/products(search=pixel&search=pen)?format=json&show=name,upc,salePrice,image,longDescription&apiKey=INSERT_API_KEY"
 ```
 
 #### Free Icons if Needed
@@ -99,7 +99,7 @@ For your convenience, below is a sample JSON response from the Best Buy Products
     "queryTime": "0.061",
     "totalTime": "0.070",
     "partial": false,
-    "canonicalUrl": "/v1/products(search=\"pixel\"&search=\"pen\")?show=name,upc,salePrice,image,longDescription&format=json&apiKey=7Ob7hGyGMBma1ilGiq7tc2XZ",
+    "canonicalUrl": "/v1/products(search=\"pixel\"&search=\"pen\")?show=name,upc,salePrice,image,longDescription&format=json&apiKey=YOUR_API_KEY",
     "products": [
         {
             "name": "Google - Pixelbook Pen - Midnight Blue",
